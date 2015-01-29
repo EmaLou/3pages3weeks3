@@ -18,10 +18,10 @@ body {
 
 footer label {
     position: relative;
-    bottom: 100px;
+    bottom: 40px;
     font-family: courier;
     color: white;
-    font-size: 6rem;
+    font-size: 2.5rem;
 }
 footer {
     text-align: center;
