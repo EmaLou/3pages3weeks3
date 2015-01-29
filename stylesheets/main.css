@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #030407;
+    font-family: "Droid Serif", serif;
+}
+.main-pic {
+    width: 100%;
+}
+.container {
+    text-align: center;
+}
+.movie-name {
+    width: 60%;
+    position: relative;
+    bottom: 100px;
+    margin-left: 3%;
+}
+
+footer label {
+    position: relative;
+    bottom: 100px;
+    font-family: courier;
+    color: white;
+    font-size: 6rem;
+}
+footer {
+    text-align: center;
+}
+footer img {
+    width: 100%;
+    z-index: -1;
+}
+.movie-img {
+    position: absolute;
+    left: 121%;
+    top: -18px;
+}
