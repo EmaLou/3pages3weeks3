@@ -12,8 +12,7 @@ body {
 .movie-name {
     width: 60%;
     position: relative;
-    bottom: 100px;
-    margin-left: 3%;
+    bottom: 50px;
 }
 
 footer label {
@@ -30,8 +29,26 @@ footer img {
     width: 100%;
     z-index: -1;
 }
-.movie-img {
+.movie-img-right {
     position: absolute;
-    left: 121%;
+    left: 120%;
     top: -18px;
+}
+.movie-img-left {
+    position: absolute;
+    right: 120%;
+    top: -18px;
+}
+.year {
+    font-size: 1.2em;
+    color: red;
+}
+.movie-3 {
+    width: 165px;
+}
+.cd-timeline-content.session-1 {
+    background: #c5f3c6;
+}
+.cd-timeline-content.session-3 {
+    background: #c5cdf3;
 }
