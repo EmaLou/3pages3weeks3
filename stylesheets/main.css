@@ -47,8 +47,29 @@ footer img {
     width: 165px;
 }
 .cd-timeline-content.session-1 {
-    background: #c5f3c6;
+    background-color: black;
+    color: #c5f3c6;
+}
+.cd-timeline-content.session-2 {
+    background-color: black;
+    color: #fffbec;
 }
 .cd-timeline-content.session-3 {
-    background: #c5cdf3;
+    background-color: black;
+    color: #c5cdf3;
+}
+.cd-timeline-content.right {
+    text-align: right;
+}
+
+@media screen and (max-width: 1170px) {
+    .movie-name{
+        bottom: 0;
+    }
+    .movie-img-left {
+        display: none;
+    }
+    .movie-img-right {
+        display: none;
+    }
 }
