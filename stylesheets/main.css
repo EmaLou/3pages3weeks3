@@ -72,4 +72,7 @@ footer img {
     .movie-img-right {
         display: none;
     }
+    .cd-timeline-content.right {
+        text-align: left;
+    }
 }
